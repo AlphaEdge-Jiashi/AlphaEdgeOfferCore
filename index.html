@@ -665,62 +665,11 @@
       }
 
       .table-wrap {
-        overflow-x: visible;
-        background: transparent;
-        border: none;
-      }
-
-      .table-wrap::after {
-        display: none;
-      }
-
-      table,
-      thead,
-      tbody,
-      tr,
-      th,
-      td {
-        display: block;
-        width: 100%;
+        overflow-x: auto;
       }
 
       table {
-        min-width: 0;
-      }
-
-      thead {
-        display: none;
-      }
-
-      tbody {
-        display: grid;
-        gap: 10px;
-      }
-
-      tr {
-        background: #fff;
-        border: 1px solid var(--line);
-        border-radius: 16px;
-        overflow: hidden;
-      }
-
-      td {
-        border-bottom: 1px solid var(--line);
-        padding: 10px 12px;
-      }
-
-      td:last-child {
-        border-bottom: none;
-      }
-
-      td::before {
-        content: attr(data-label);
-        display: block;
-        margin-bottom: 4px;
-        font-size: 0.72rem;
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
-        color: var(--muted);
+        min-width: 620px;
       }
 
       .price {
@@ -797,7 +746,7 @@
           <p>Offer-Core 的项目判断，来自 <strong>真实行业视角</strong>，而非中介经验或学校官网信息。</p>
           <p>我们的导师不仅毕业于名校，更活跃在全球头部对冲基金 / 投行 / 咨询 / Tech 公司，能够提供 <strong>来自招聘与行业内部的一线判断</strong>。他们对目标项目的认识，是全方位、细节化的：</p>
 
-          <p class="section-subcopy mobile-only">手机端会自动切换为卡片化展示，方便直接阅读。</p>
+          <p class="section-subcopy mobile-only">手机端可左右滑动查看完整表格。</p>
 
           <div class="table-wrap">
             <table>
@@ -910,7 +859,7 @@
         </div>
       </div>
 
-      <p class="section-subcopy mobile-only">手机端会自动切换为卡片化展示，方便直接阅读。</p>
+      <p class="section-subcopy mobile-only">手机端可左右滑动查看完整表格。</p>
 
       <div class="table-wrap">
         <table>
